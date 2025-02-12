@@ -7,8 +7,8 @@ int main() {
     char operand;
 
     printf("계산할 식을 대입해주세요");
-    scanf(" %d", &num1); //첫번째 숫자 정의
-    printf(" %d", &num1);
+    scanf("%d", &num1); //첫번째 숫자 정의
+    printf("%d", &num1);
     getchar();
 
     // getchar();
