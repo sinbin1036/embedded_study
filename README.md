@@ -1,3 +1,3 @@
 C발
 
-<img src="![Image](https://github.com/user-attachments/assets/c0783341-4560-4ed1-b75a-69ec7475dc42)">
+![Image](https://github.com/user-attachments/assets/c0783341-4560-4ed1-b75a-69ec7475dc42)
