@@ -4,10 +4,16 @@
 //숫자채우기(출력은) system("cls")로 지우면서 야매 렌더링(?) 활용 [디른 더 좋은 방안이 있을경우 활용]
 #include <stdio.h>
 
-int arr_in(int arr[][]) {  // 배열 생성 함수
-    // for() {
+void clear_screen() { // ANSI 코드로 화면 지우기
+    printf("\033[H\033[J");  
+}
 
-    // }
+// int arr_in(int i) {  // 배열 생성 함수
+//     int arr[i][i];
+// }
+
+int arr_output(int n) {
+
 }
 
 int main() { 
@@ -17,9 +23,6 @@ int main() {
     printf("숫자를 입력하시오(0부터 100까지 가능) : ");
     fgets(input, sizeof(input), stdin); //버퍼관리 안합니다 안해요
     sscanf(input, "%d", &array_num);
-
-    int arr[array_num][array_num];
-
 
     getchar();
     return 0;
